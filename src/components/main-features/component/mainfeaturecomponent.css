@@ -1,0 +1,11 @@
+.featurecomponent {
+    background-color: #d2edff;
+    /* width: 380px; */
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+}

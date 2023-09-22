@@ -1,0 +1,23 @@
+.scootersbox {
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerbox {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px){
+    .innerbox {
+        display: flex;
+        width: 90vw;
+        flex-direction: column;
+    }
+    
+}
