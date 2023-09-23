@@ -1,0 +1,31 @@
+.teamoutterbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teambox {
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.carousel-team-container {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .carousel-team-container {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .teambox {
+        display: none;
+    }
+}

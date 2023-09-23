@@ -1,4 +1,22 @@
-.carousel {
-    width: auto;
+.carousel-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.carousel-container img {
+    width: 100%;
     height: auto;
+}
+
+.text-in-carousel {
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+    margin-left: 20vw;
+}
+
+@media screen and (max-width: 1200px) {
+    .text-in-carousel {
+        margin-left: 5vw;
+    }
 }
