@@ -1,6 +1,6 @@
 .quotebox {
     width: 100vw;
-    margin: 30px 0px;
+    margin: 4rem 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,4 +34,10 @@
     padding: 5rem;
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 850px) {
+    .quote {
+        width: 90%;
+    }
 }

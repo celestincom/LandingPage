@@ -7,9 +7,15 @@
 }
 
 .boxfeatures {
-    max-width: 1200px;
+    width: 1200px;
     display: grid;
     gap: 20px;
     /* grid-template-columns: fit-content(100px) fit-content(100px) 1fr; */
     grid-template-columns: repeat(auto-fill, minmax(300px , 1fr));
+}
+
+@media screen and (max-width: 1200px) {
+    .boxfeatures {
+        width: 90%;
+    }
 }

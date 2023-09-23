@@ -1,0 +1,64 @@
+.queryoutterbox {
+    margin: 4rem 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.querybox {
+    width: 640px;
+    border: 1px solid;
+    border-color: #2980B9;
+}
+
+.queryinnerbox1 {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.queryinnerbox1 {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.queryinnerbox2 {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    width: 100%;
+    margin: 1rem 0rem;
+}
+
+.fruit {
+    width: 100%;
+    margin: 1rem 0rem;
+}
+
+.help {
+    width: 100%;
+    margin: 1rem 0rem;
+}
+
+.submit {
+    width: 100%;
+    margin: 1rem 0rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 700px) {
+    .querybox {
+        width: 90%;
+    }
+}
