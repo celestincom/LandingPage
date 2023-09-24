@@ -20,7 +20,10 @@ function Landing() {
       <PictureWriting />
       <TextModal />
       <MainFeatures />
-      <div className='background-container'>
+      <div style={{width: '100%', display: "flex", justifyContent: "center", alignItems: "center"}}>
+        <div className='background-container'>
+          <img src='./images/scooters/Scooters2.svg' style={{ visibility: "hidden" }} />
+        </div>
       </div>
       <div className='under-background-container'><TextModal /></div>
       <Team />

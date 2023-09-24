@@ -19,7 +19,7 @@ const Quote = () => {
             }
             
         }, 10000)
-    },[number])
+    },[])
 
     return (
         <div className="quotebox">

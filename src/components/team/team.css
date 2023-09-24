@@ -17,10 +17,20 @@
     display: none;
 }
 
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 @media screen and (max-width: 1200px) {
     .carousel-team-container {
-        display: flex;
         width: 90%;
+        display: flex;
         justify-content: center;
         align-items: center;
     }

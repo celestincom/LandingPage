@@ -15,7 +15,7 @@ body {
   height: 30%; 
   position: absolute;
   z-index: -1;
-  margin-top: 5vh;
+  margin-top: 40vh;
 }
 
 .under-background-container {
@@ -25,9 +25,10 @@ body {
 @media screen and (max-width: 1200px) {
   .background-container {
     width: 90%;
+    height: calc(0.664 * 100vw);
     background-attachment: initial;
     position: static;
-    background-size: auto;
+    margin-top: 5vh;
   }
 
   .under-background-container {
